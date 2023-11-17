@@ -8,8 +8,6 @@ jobs:
   schudule_test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source code
-        uses: actions/checkout@v2
       - name: run schedule
         run: |
           echo "Testing schedule execution"
